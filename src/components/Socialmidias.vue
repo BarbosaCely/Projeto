@@ -28,7 +28,7 @@
             small
             color="teal lighten -4"
             @click="Instagram"
-            href="https://www.instagram.com/softbitez/" target="_blank">
+            href="https://www.instagram.com/" target="_blank">
             <img src="https://i.imgur.com/IyVDHLe.png">
             </v-btn>
             <p>Instagram</p>
