@@ -22,7 +22,6 @@
                 name: '',
                 message:'',
                 email:'',
-                age:'',
             }
         },
         methods: {

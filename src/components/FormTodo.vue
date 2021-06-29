@@ -32,7 +32,7 @@
         },
         methods: {
             addComments() {
-          if (this.message.trim() === '' && this.message.trim() === '' && this.age.trim() === '' && this.email.trim() === '') {
+          if (this.message.trim() === '' && this.message.trim() === '' && this.email.trim() === '') {
             /* Evita que um nome null ou comentario null seja submitido*/
             
             return;
@@ -41,13 +41,11 @@
           this.$emit('add-todo', {
               name: this.name,
               message: this.message,
-              age: this.age,
               email: this.email,
           });
 
           this.name = '';
           this.message = '';
-          this.age = '';
           this.email = '';
           /*  remove os nome e comentario assim que submit*/
 
